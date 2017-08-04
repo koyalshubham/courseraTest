@@ -33,20 +33,20 @@ span{
     float: left;
     margin-right: 13px;
     margin-left: 30px;    
-    width: 30%;
+    width: 400px;
 }
 
 #division_centre{    
     display: inline-block;    
-    margin-left: 33px;    
-    width: 30%;
+    margin-left: 100px;    
+    width: 400px;
 }
 
 #division_right{
     float: right;
     margin-right: 30px;
     margin-left: 10px;    
-    width: 30%;
+    width: 400px;
 }
 
 #left_inner{
@@ -65,6 +65,15 @@ span{
 @media (max-width: 991px) and (min-width: 768px){
     #division_left{
         float: left;
+        width: 50%;
+    }
+    
+    #division_centre{
+        width: 50%;
+    }
+    
+    #division_right{
+        width: 100%;
     }
     
 }
