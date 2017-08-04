@@ -9,39 +9,32 @@ h1{
 
 div{
     box-sizing: border-box;
-}
-
-#blank_space{
-    height: 100px;
-}
-
-#division_left{
     background-color: dimgrey;
+    border: 2px solid black;
+    padding-left: 5px;
     width: 30%;
+}
+
+/*#blank_space{
+    height: 100px;
+    background-color: white;
+}*/
+
+#division_left{    
     float: left;
     margin-right: 13px;
-    margin-left: 30px;
-    border: 2px solid black;
-    padding-left: 5px;
+    margin-left: 30px;    
 }
 
-#division_centre{
-    background-color: dimgrey;
-    width: 30%;
+#division_centre{    
     display: inline-block;    
-    margin-left: 33px;
-    border: 2px solid black;
-    padding-left: 5px;
+    margin-left: 33px;    
 }
 
 #division_right{
-    background-color: dimgrey;
-    width: 30%;
     float: right;
     margin-right: 30px;
-    margin-left: 10px;
-    border: 2px solid black;
-    padding-left: 5px;
+    margin-left: 10px;    
 }
 
 span{
