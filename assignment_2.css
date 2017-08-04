@@ -36,10 +36,11 @@ span{
     width: 400px;
 }
 
-#division_centre{    
+#division_centre{  
+    width: 400px;
     display: inline-block;    
     margin-left: 100px;    
-    width: 400px;
+    
 }
 
 #division_right{
