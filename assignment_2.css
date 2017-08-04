@@ -31,16 +31,21 @@ span{
 @media (min-width: 992px){
 #division_left{    
     float: left;
-    margin-right: 13px;
+    margin-right: 40px;
     margin-left: 30px;    
     width: 400px;
 }
 
-#division_centre{    
+#division_centre{  
+    width: 400px;
     display: inline-block;    
     margin-left: 100px;    
+<<<<<<< HEAD
     width: 400px;
     margin-right: 50px;
+=======
+    
+>>>>>>> 0bdd0a3d4048e91c91c1ff8485c6c3768d10cbf1
 }
 
 #division_right{
