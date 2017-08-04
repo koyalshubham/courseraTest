@@ -31,10 +31,9 @@ span{
 @media (min-width: 992px){
 #division_left{    
     float: left;
-    margin-right: 13px;
+    margin-right: 50px;
     margin-left: 30px;    
     width: 400px;
-    margin-right: 50px;
 }
 
 #division_centre{  
