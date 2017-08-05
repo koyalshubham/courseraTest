@@ -12,7 +12,7 @@ div{
     background-color: dimgrey;
     border: 2px solid black;
     padding-left: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 span{
@@ -88,8 +88,8 @@ span{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!TABLET STYLING!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @media (max-width: 991px) and (min-width: 768px){
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        display: inline-block;
         float: none;
-        border: 1px solid green;
     }
     .col-md-1 {
         width: 8.33%;
